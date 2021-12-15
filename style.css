@@ -58,3 +58,20 @@ h2, p {
     border-radius:5px;
     border: 1px solid #fff;
 }
+
+.arrows {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    left: 50%;
+    top: 50%;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    z-index: 1000;
+    /* margin-left: -25px; */
+    /* margin-top: -50px; */
+}
